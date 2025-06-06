@@ -1,0 +1,107 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/banji/list",
+    "pages/banji/add-or-update",
+    "pages/banji/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/kechengxinxi/list",
+    "pages/kechengxinxi/add-or-update",
+    "pages/kechengxinxi/detail",
+    "pages/zuoyebuzhi/list",
+    "pages/zuoyebuzhi/add-or-update",
+    "pages/zuoyebuzhi/detail",
+    "pages/xueshengxuanke/list",
+    "pages/xueshengxuanke/add-or-update",
+    "pages/xueshengxuanke/detail",
+    "pages/zuoyetijiao/list",
+    "pages/zuoyetijiao/add-or-update",
+    "pages/zuoyetijiao/detail",
+    "pages/zuoyepingfen/list",
+    "pages/zuoyepingfen/add-or-update",
+    "pages/zuoyepingfen/detail",
+    "pages/ketangqiandao/list",
+    "pages/ketangqiandao/add-or-update",
+    "pages/ketangqiandao/detail",
+    "pages/kechengfenlei/list",
+    "pages/kechengfenlei/add-or-update",
+    "pages/kechengfenlei/detail",
+    "pages/kechengziyuan/list",
+    "pages/kechengziyuan/add-or-update",
+    "pages/kechengziyuan/detail",
+    "pages/kechengchengji/list",
+    "pages/kechengchengji/add-or-update",
+    "pages/kechengchengji/detail",
+    "pages/kechengpingjia/list",
+    "pages/kechengpingjia/add-or-update",
+    "pages/kechengpingjia/detail",
+    "pages/discusskechengziyuan/list",
+    "pages/discusskechengziyuan/add-or-update",
+    "pages/discusskechengziyuan/detail",
+    "pages/exampaperlist/list",
+    "pages/exampaperlist/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examfailrecord/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "在线课堂微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#339999",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/kechengxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "课程信息"
+      },
+      {
+        "pagePath": "pages/zuoyebuzhi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "作业布置"
+      },
+      {
+        "pagePath": "pages/kechengziyuan/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "课程资源"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
